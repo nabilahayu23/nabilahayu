@@ -1,0 +1,138 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #fff; /* Warna latar belakang putih untuk kontras */
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #ff7f50; /* Coral */
+    color: #fff;
+}
+
+.logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ffe4e1; /* Light Coral */
+}
+
+.top-btn .nav-btn {
+    background: #ffe4e1; /* Light Coral */
+    color: #ff7f50; /* Coral */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.top-btn .nav-btn:hover {
+    background: #ff7f50; /* Coral */
+    color: #fff;
+}
+
+/* Home Section */
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: #fff; /* Warna latar belakang putih untuk kontras */
+}
+
+.home-content {
+    max-width: 600px;
+}
+
+.home-content h1 {
+    font-size: 48px;
+}
+
+.home-content p {
+    margin: 20px 0;
+}
+
+.social-media {
+    margin: 20px 0;
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: #ff7f50; /* Coral */
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #ffe4e1; /* Light Coral */
+}
+
+.home-img img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    padding: 50px;
+    background: #ff7f50; /* Coral */
+}
+
+.about-img img {
+    max-width: 300px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.about-content {
+    max-width: 600px;
+    color: #fff; /* Putih untuk teks di bagian ini */
+}
+
+.about-content h2 {
+    font-size: 36px;
+}
+
+.about-content p {
+    margin: 20px 0;
+}
+
+/* Portfolio Section */
+.portfolio {
+    padding: 50px;
+    background: #fff; /* Warna latar belakang putih untuk kontras */
+}
+
+.portfolio-content {
+    display: ⬤
